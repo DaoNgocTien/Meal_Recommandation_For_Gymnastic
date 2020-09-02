@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/rawFood.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE tbody SYSTEM "rawFood.dtd">
+
+    <tbody>
+    ...
+    </tbody>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT tbody (a)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT a EMPTY>
+<!ATTLIST a
+    href CDATA #IMPLIED
+    title CDATA #IMPLIED
+    width CDATA #IMPLIED
+    height CDATA #IMPLIED
+    src CDATA #IMPLIED
+    class CDATA #IMPLIED
+    alt CDATA #IMPLIED
+    srcset CDATA #IMPLIED
+    sizes CDATA #IMPLIED
+  >
